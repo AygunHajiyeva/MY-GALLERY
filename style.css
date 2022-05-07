@@ -23,7 +23,6 @@ header {
   margin-bottom: 64px;
 }
 .card {
-  /* margin: 0 auto; */
   padding-top: 19px;
   max-width: 217px;
   height: 253px;
@@ -123,6 +122,9 @@ footer a {
 }
 
 @media all and (max-width: 500px) {
+  .container {
+    margin: 17px auto;
+  }
   .card img {
     width: 101px;
     margin-bottom: 5px;
@@ -157,6 +159,6 @@ footer a {
 
   footer {
     font-size: 14px;
-    margin-top: 38px;
+    margin-top: 28px;
   }
 }
