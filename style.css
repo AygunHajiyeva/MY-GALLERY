@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #4e5150;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 60px auto;
+}
+
+/* HEADER */
+
+header {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+.card {
+  /* margin: 0 auto; */
+  padding-top: 19px;
+  max-width: 217px;
+  height: 253px;
+}
+
+img {
+  margin-bottom: 16px;
+  width: 157px;
+  border-radius: 16px;
+}
+
+h5 {
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+
+h6 {
+  font-size: 14px;
+  color: #a9a9a9;
+}
+
+.box {
+  padding-top: 14px;
+  width: 100px;
+  height: 67px;
+  background: #e5e5e5;
+  border-radius: 12px;
+}
+
+.number {
+  color: #4e5150;
+  font-size: 18px;
+}
+
+.text {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+
+.info {
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+}
+
+/* MAIN */
+main img {
+  max-height: 299px;
+  max-width: 299px;
+  object-fit: cover;
+  width: 100%;
+}
+
+main img:nth-child(2) {
+  max-width: 629px;
+  grid-column: span 2;
+}
+
+main img:nth-child(3) {
+  max-width: 627px;
+  grid-column: span 2;
+}
+
+main img:nth-child(4) {
+  grid-row: span 2;
+  max-width: 297px;
+  max-height: 630px;
+}
+
+main {
+  row-gap: 0;
+  gap: 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 140px;
+  margin-bottom: -40px;
+  text-align: center;
+  font-size: 14px;
+  color: #b9bdcf;
+}
+
+footer a {
+  font-weight: 700;
+  text-decoration: none;
+}
+@media all and (max-width: 900px) {
+  main {
+    padding: 3%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .card img {
+    width: 101px;
+    margin-bottom: 5px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 10px;
+  }
+
+  .info {
+    margin-top: -70px;
+    gap: 15px;
+  }
+
+  .box {
+    width: 78px;
+    height: 52px;
+  }
+
+  .box p {
+    font-size: 12px;
+  }
+
+  main {
+    gap: 0;
+    column-gap: 0.5rem;
+    margin-top: -20px;
+  }
+
+  footer {
+    font-size: 14px;
+    margin-top: 38px;
+  }
+}
