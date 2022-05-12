@@ -1,20 +1,21 @@
-<h1 align="center">{My Gallery}</h1>
+<h1 align="center">My Gallery</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
-  <h3>
+  <h1>
     <a href="https://deluxe-peony-0e791c.netlify.app">
-      >>> Demo <<<
+      >>>> Demo <<<<
     </a>
-  </h3>
+  </h1>
 </div>
 
 
 ## Overview
-![2022-05-08 (3)](https://user-images.githubusercontent.com/99952793/167270185-5ebe4d1b-72c5-4825-9c1d-71e92f480185.png)
+![screencapture-deluxe-peony-0e791c-netlify-app-2022-05-12-11_08_46](https://user-images.githubusercontent.com/99952793/168012290-76299a9c-2bec-4230-86a7-180e41700fce.png)
+
 
 
 
