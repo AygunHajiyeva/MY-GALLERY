@@ -1,4 +1,4 @@
-<h1 align="center">My Gallery</h1>
+<h1 align="center">MY GALLERY</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -29,6 +29,6 @@
 
 ## Contact
 
-- GitHub [@AygunHajiyeva](https://{https://github.com/AygunHajiyeva})
+- GitHub [@AygunHajiyeva](https://github.com/AygunHajiyeva)
 
 
