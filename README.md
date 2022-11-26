@@ -2,6 +2,8 @@
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   <h2><a href="https://www.figma.com/file/HHzg6Ywq8jamFTB0J4iXKM/my-gallery-challenge?node-id=0%3A1">Figma File</a></h2>
+   
 </div>
 
 <div align="center">
